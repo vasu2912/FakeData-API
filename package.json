@@ -1,0 +1,19 @@
+{
+  "name": "fake-data-api",
+  "version": "1.0.0",
+  "description": "This is the API that creates fake user data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node.js",
+    "fakedata"
+  ],
+  "author": "Vasu k",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
