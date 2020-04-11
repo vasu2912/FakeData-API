@@ -10,6 +10,13 @@ const textRoutes = require("./api/routes/text");
 const paymentRoutes = require("./api/routes/payments");
 const miscRoutes = require("./api/routes/misc");
 const internetRoutes = require("./api/routes/internet");
+const commerceRoutes = require("./api/routes/commerce");
+const companyRoutes = require("./api/routes/company");
+const databaseRoutes = require("./api/routes/database");
+const hackerRoutes = require("./api/routes/hacker");
+const helpersRoutes = require("./api/routes/helpers");
+const loremRoutes = require("./api/routes/lorem");
+const systemRoutes = require("./api/routes/system");
 
 //CORS Handling
 app.use((req, res, next) => {
@@ -35,6 +42,13 @@ app.use("/misc", miscRoutes);
 app.use("/number", numberRoutes);
 app.use("/payments", paymentRoutes);
 app.use("/text", textRoutes);
+app.use("/commerce", commerceRoutes);
+app.use("/company", companyRoutes);
+app.use("/database", databaseRoutes);
+app.use("/hacker", hackerRoutes);
+app.use("/helpers", helpersRoutes);
+app.use("/lorem", loremRoutes);
+app.use("/system", systemRoutes);
 
 //Error Handling for incoming requests
 app.use((req, res, next) => {
