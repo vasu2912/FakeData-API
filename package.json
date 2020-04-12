@@ -2,13 +2,17 @@
   "name": "fake-data-api",
   "version": "1.0.0",
   "description": "RESTful API that provides dummy data for your powerful apllications",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [
     "node.js",
-    "fakedata"
+    "fakedata",
+    "express server",
+    "faker",
+    "casual",
+    "fakedataapi"
   ],
   "author": "Vasu k",
   "license": "MIT",
