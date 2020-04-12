@@ -4,7 +4,7 @@
   "description": "RESTful API that provides dummy data for your powerful apllications",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "keywords": [
     "node.js",
