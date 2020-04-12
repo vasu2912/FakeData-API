@@ -1,11 +1,10 @@
 {
   "name": "fake-data-api",
   "version": "1.0.0",
-  "description": "This is the API that creates fake user data",
+  "description": "RESTful API that provides dummy data for your powerful apllications",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "node.js",
