@@ -21,6 +21,16 @@ router.get("/", (req, res, next) => {
   var word = faker.random.word();
   var image = faker.random.image();
   var arrayElement = faker.random.arrayElement();
+  var abbreviation = faker.hacker.abbreviation();
+  var adjective = faker.hacker.adjective();
+  var noun = faker.hacker.noun();
+  var verb = faker.hacker.verb();
+  var ingverb = faker.hacker.ingverb();
+  var phrase = faker.hacker.phrase();
+  var color_name = casual.color_name;
+  var safe_color_name = casual.safe_color_name;
+  var rgb_hex = casual.rgb_hex;
+  var rgb_array = casual.rgb_array;
   res.status(200).json({
     info: {
       country_code,
@@ -40,6 +50,16 @@ router.get("/", (req, res, next) => {
       image,
       locale,
       arrayElement,
+      abbreviation,
+      adjective,
+      noun,
+      verb,
+      ingverb,
+      phrase,
+      color_name,
+      safe_color_name,
+      rgb_hex,
+      rgb_array,
     },
   });
 });
@@ -62,6 +82,16 @@ router.post("/", (req, res, next) => {
   var word = faker.random.word();
   var image = faker.random.image();
   var arrayElement = faker.random.arrayElement();
+  var abbreviation = faker.hacker.abbreviation();
+  var adjective = faker.hacker.adjective();
+  var noun = faker.hacker.noun();
+  var verb = faker.hacker.verb();
+  var ingverb = faker.hacker.ingverb();
+  var phrase = faker.hacker.phrase();
+  var color_name = casual.color_name;
+  var safe_color_name = casual.safe_color_name;
+  var rgb_hex = casual.rgb_hex;
+  var rgb_array = casual.rgb_array;
   res.status(201).json({
     info: {
       country_code,
@@ -81,6 +111,16 @@ router.post("/", (req, res, next) => {
       image,
       locale,
       arrayElement,
+      abbreviation,
+      adjective,
+      noun,
+      verb,
+      ingverb,
+      phrase,
+      color_name,
+      safe_color_name,
+      rgb_hex,
+      rgb_array,
     },
   });
 });

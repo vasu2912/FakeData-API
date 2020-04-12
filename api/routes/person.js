@@ -10,6 +10,9 @@ router.get("/", (req, res, next) => {
   var first_name = casual.first_name;
   var last_name = casual.last_name;
   var full_name = casual.full_name;
+  var phoneFormats = faker.phone.phoneFormats();
+  var phoneNumber = faker.phone.phoneNumber();
+  var phoneNumberFormat = faker.phone.phoneNumberFormat();
   var password = casual.password;
   var name_prefix = casual.name_prefix;
   var name_suffix = casual.name_suffix;
@@ -26,6 +29,9 @@ router.get("/", (req, res, next) => {
       first_name,
       last_name,
       full_name,
+      phoneFormats,
+      phoneNumber,
+      phoneNumberFormat,
       password,
       name_prefix,
       name_suffix,
@@ -45,6 +51,9 @@ router.post("/", (req, res, next) => {
   var first_name = casual.first_name;
   var last_name = casual.last_name;
   var full_name = casual.full_name;
+  var phoneFormats = faker.phone.phoneFormats();
+  var phoneNumber = faker.phone.phoneNumber();
+  var phoneNumberFormat = faker.phone.phoneNumberFormat();
   var password = casual.password;
   var name_prefix = casual.name_prefix;
   var name_suffix = casual.name_suffix;
@@ -61,6 +70,9 @@ router.post("/", (req, res, next) => {
       first_name,
       last_name,
       full_name,
+      phoneFormats,
+      phoneNumber,
+      phoneNumberFormat,
       password,
       name_prefix,
       name_suffix,
