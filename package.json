@@ -17,8 +17,5 @@
     "casual": "^1.6.2",
     "express": "^4.17.1",
     "faker": "^4.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.3"
   }
 }
