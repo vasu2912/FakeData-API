@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 //importing routes
+const baseRoutes = require("./api/routes/base");
 const personRoutes = require("./api/routes/person");
 const addressRoutes = require("./api/routes/address");
 const dateRoutes = require("./api/routes/date");
@@ -30,6 +31,7 @@ app.use((req, res, next) => {
 });
 
 // Routes to handle the requests
+app.use("/", baseRoutes);
 app.use("/person", personRoutes);
 app.use("/address", addressRoutes);
 app.use("/date", dateRoutes);

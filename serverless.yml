@@ -1,0 +1,16 @@
+service: FakeData-API #Name of the app
+
+provider:
+  name: aws
+  runtime: nodejs12.x # Node JS version
+  memorySize: 512
+  timeout: 10
+  stage: production
+  region: ap-south-1 # AWS region
+
+functions:
+  api:
+    handler: lambda.handler
+    events:
+      - http: ANY {proxy+}
+      - http: ANY /

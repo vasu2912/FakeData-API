@@ -1,10 +1,11 @@
 {
-  "name": "fake-data-api",
-  "version": "1.0.0",
+  "name": "fakedata-api",
+  "version": "0.1.0",
   "description": "RESTful API that provides dummy data for your powerful apllications",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "serverless deploy"
   },
   "keywords": [
     "node.js",
@@ -14,11 +15,15 @@
     "casual",
     "fakedataapi"
   ],
-  "author": "Vasu k",
+  "author": "Vasu kandagatla",
   "license": "MIT",
   "dependencies": {
+    "aws-serverless-express": "^3.3.8",
     "casual": "^1.6.2",
     "express": "^4.17.1",
     "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "serverless": "^1.68.0"
   }
 }
