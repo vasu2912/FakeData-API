@@ -1,6 +1,8 @@
 # FakeData-API
 #### Fake data generator
-[![HitCount](http://hits.dwyl.com/vasu2912/FakeData-API.svg)](http://hits.dwyl.com/vasu2912/FakeData-API) 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
+
 
 A Simple Restful API for Fake Dummy Data Built using Express and Nodejs.
 
