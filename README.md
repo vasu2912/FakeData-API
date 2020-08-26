@@ -8,8 +8,10 @@ A Simple Restful API for Fake Dummy Data Built using Express and Nodejs.
 
 Made using [faker.js](https://www.npmjs.com/package/faker) and [casual](https://www.npmjs.com/package/casual).
 
-Here is the Endpoint for the API
+Here is the Endpoint for the API 
 https://u14ihm6uhc.execute-api.ap-south-1.amazonaws.com/production/
+
+(Base route has no data Associated with it)
 
 # End Points.
 1. address. https://u14ihm6uhc.execute-api.ap-south-1.amazonaws.com/production/address
