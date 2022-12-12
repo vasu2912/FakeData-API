@@ -20,7 +20,7 @@
   "dependencies": {
     "aws-serverless-express": "^3.3.8",
     "casual": "^1.6.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "faker": "^4.1.0"
   },
   "devDependencies": {
