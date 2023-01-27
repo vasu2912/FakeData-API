@@ -24,6 +24,6 @@
     "faker": "^4.1.0"
   },
   "devDependencies": {
-    "serverless": "^1.68.0"
+    "serverless": "^3.27.0"
   }
 }
